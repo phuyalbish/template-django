@@ -14,7 +14,7 @@ services:
     image: mysql:latest
     container_name: PROJECT_NAME-db
     volumes:
-      - PROJECT_NAME-data:/var/lin/mysql
+      - PROJECT_NAME-data:/var/lib/mysql
     ports:
       - 3307:3307
     environment:
