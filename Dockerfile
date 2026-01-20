@@ -68,11 +68,11 @@ CMD ["bash", "-c", "python manage.py makemigrations && python manage.py migrate 
 
 # To Build
 
-# docker build -t prosthetics-backend-prod-image -f Dockerfile.production .
+# docker build -t PROJECT_NAME-backend-image -f Dockerfile.production .
 
 # To Run
-# docker run -it --rm -e DJANGO_ENV=production  -p 8081:8081  --name prosthetics-backend-prod   prosthetics-backend-prod-image
+# docker run -it --rm -e DJANGO_ENV=production  -p 8081:8081  --name PROJECT_NAME-backend  PROJECT_NAME-backend-image
 
 
 # From env file
-# docker run -it --rm --env-file .env  -p 8081:8081  --name prosthetics-backend-prod  prosthetics-backend-prod-image
+# docker run -it --rm --env-file .env  -p 8081:8081  --name PROJECT_NAME-backend  PROJECT_NAME-backend-image

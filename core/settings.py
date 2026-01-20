@@ -255,10 +255,10 @@ LOGGING = {
 
 
 JAZZMIN_SETTINGS = {
-    "site_title": "PROSTHETICS",
-    "site_header": "PROSTHETICS",
-    "site_brand": "PROSTHETICS",
-    "welcome_sign": "Welcome to PROSTHETICS Admin Panel",
+    "site_title": "PROJECT_NAME",
+    "site_header": "PROJECT_NAME",
+    "site_brand": "PROJECT_NAME",
+    "welcome_sign": "Welcome to PROJECT_NAME Admin Panel",
 
     "custom_css": "css/custom_admin.css",
     "custom_js": "js/custom_admin.js",
